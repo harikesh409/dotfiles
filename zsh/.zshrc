@@ -81,7 +81,6 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 git
-docker
 zsh-syntax-highlighting
 zsh-autosuggestions
 mvn
@@ -146,5 +145,8 @@ iterm2_print_user_vars() {
 #    iterm2_set_user_var kubecontext $(awk '/^current-context:/{print $2;exit;}' <~/.kube/config)
 }
 
-# Fix Homebrew path (required for M1 mac and above)
-export PATH="/opt/homebrew/bin:$PATH"
+if [ "$(arch)" = arm64 ]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+else
+    eval "$(/usr/local/bin/brew shellenv)"
+fi

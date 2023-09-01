@@ -61,6 +61,12 @@ brew install intellij-idea
 brew install iterm2
 brew install itsycal
 brew install jenv
+
+## Jenv Plugins
+jenv enable-plugin export
+jenv enable-plugin maven
+
+
 brew install jpeg
 brew install jpeg-turbo
 brew install jq
