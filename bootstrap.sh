@@ -19,4 +19,7 @@ fi
 # tmux plugin manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 # Linking tmux config
-ln -f $(PWD)/.tmux.conf $HOME/.tmux.conf
+ln -fv $(PWD)/.tmux.conf $HOME/.tmux.conf
+
+# Linking nvim config
+ln -sfv $(PWD)/nvim  ${HOME}/.config/
