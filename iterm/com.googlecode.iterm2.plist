@@ -2589,7 +2589,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>15</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string>/Users/harikesh/.config/nvim</string>
 		</dict>
@@ -2633,6 +2633,8 @@
 	</dict>
 	<key>PreserveWindowSizeWhenTabBarVisibilityChanges</key>
 	<false/>
+	<key>ShowFullScreenTabBar</key>
+	<false/>
 	<key>ShowNewOutputIndicator</key>
 	<true/>
 	<key>Snippets</key>
@@ -2643,7 +2645,7 @@
 			<key>title</key>
 			<string>edit zsh</string>
 			<key>value</key>
-			<string>vim ~/.zshrc
+			<string>nvim ~/.zshrc
 </string>
 			<key>version</key>
 			<integer>1</integer>
@@ -2711,6 +2713,16 @@
 			<key>value</key>
 			<string>unset http_proxy &amp;&amp; unset https_proxy
 </string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>guid</key>
+			<string>37EDD4D9-8853-41E0-92CC-BF3A3536C5B2</string>
+			<key>title</key>
+			<string>base64 encode</string>
+			<key>value</key>
+			<string>echo -n "STRING" | base64</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>

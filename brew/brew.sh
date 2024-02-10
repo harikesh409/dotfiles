@@ -47,6 +47,7 @@ brew install fd
 brew install fliqlo
 brew install fluxctl
 brew install fzf
+brew install ripgrep
 brew install gh
 brew install gimp
 brew install git
