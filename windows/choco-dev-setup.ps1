@@ -22,6 +22,9 @@ choco install postman
 choco install soapui
 
 choco install ccleaner
+
+choco install zig
+choco install neovim
 choco install zoom
 choco install 7zip.install
 choco install vlc
