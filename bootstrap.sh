@@ -23,3 +23,6 @@ ln -fv $(PWD)/.tmux.conf $HOME/.tmux.conf
 
 # Linking nvim config
 ln -sfv $(PWD)/nvim  ${HOME}/.config/
+
+# Linking git-cz
+ln -fv $(PWD)/.czrc $HOME/.czrc

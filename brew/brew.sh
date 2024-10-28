@@ -54,6 +54,8 @@ brew install git
 brew install git-credential-manager-core
 brew install git-extras
 brew install github
+brew install czg
+brew install commitizen
 brew install --cask grammarly-desktop
 brew install google-chrome
 brew install helm
