@@ -12,6 +12,7 @@ choco install nodejs.install
 choco install jdk8
 choco install python3
 choco install maven
+choco install oh-my-posh
 
 choco install vscode.install
 choco install intellijidea-community
