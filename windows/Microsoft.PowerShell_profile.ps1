@@ -11,3 +11,6 @@ Import-Module -Name Terminal-Icons
 # Fzf
 # https://github.com/kelleyma49/PSFzf?tab=readme-ov-file#reverse-search-through-psreadline-history-default-chord-ctrlr
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
+
+## Alias for podman
+# Set-Alias -Name docker -Value podman
