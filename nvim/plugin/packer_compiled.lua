@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/harikesh/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/harikesh/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/harikesh/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/harikesh/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/harikesh/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "C:\\Users\\6220694\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1713484068\\share\\lua\\5.1\\?.lua;C:\\Users\\6220694\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1713484068\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\6220694\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1713484068\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\6220694\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1713484068\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
+local install_cpath_pattern = "C:\\Users\\6220694\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1713484068\\lib\\lua\\5.1\\?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -80,12 +80,12 @@ _G.packer_plugins = {
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/Comment.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
   LuaSnip = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["bufferline.nvim"] = {
@@ -93,32 +93,32 @@ _G.packer_plugins = {
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/bufferline.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/cmp-path",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
   cmp_luasnip = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["friendly-snippets"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["gitsigns.nvim"] = {
@@ -126,78 +126,74 @@ _G.packer_plugins = {
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/gitsigns.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["indent-blankline.nvim"] = {
+    after_files = { "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\indent-blankline.nvim\\after\\plugin\\commands.lua" },
     config = { "\27LJ\2\nN\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup%harikesh/plugins/indentblankline\frequire\0" },
     loaded = false,
-    needs_bufread = false,
+    needs_bufread = true,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/indent-blankline.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["lspkind.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind.nvim",
     url = "https://github.com/onsails/lspkind.nvim"
   },
   ["lspsaga.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspsaga.nvim",
     url = "https://github.com/glepnir/lspsaga.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
-  ["mason-null-ls.nvim"] = {
+  ["mason-tool-installer.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/mason-null-ls.nvim",
-    url = "https://github.com/jayp0521/mason-null-ls.nvim"
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-tool-installer.nvim",
+    url = "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   neogit = {
     commands = { "Neogit" },
     config = { "\27LJ\2\nE\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\28harikesh/plugins/neogit\frequire\0" },
     loaded = false,
-    needs_bufread = true,
+    needs_bufread = false,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/neogit",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\neogit",
     url = "https://github.com/NeogitOrg/neogit"
-  },
-  ["null-ls.nvim"] = {
-    loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
-    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-dap"] = {
-    after = { "nvim-dap-virtual-text", "nvim-dap-ui", "one-small-step-for-vimkind" },
+    after = { "nvim-dap-ui", "one-small-step-for-vimkind", "nvim-dap-virtual-text" },
     config = { "\27LJ\2\nA\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\24harikesh/config/dap\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/nvim-dap",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\nvim-dap",
     url = "https://github.com/mfussenegger/nvim-dap"
   },
   ["nvim-dap-ui"] = {
@@ -207,7 +203,7 @@ _G.packer_plugins = {
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/nvim-dap-ui",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\nvim-dap-ui",
     url = "https://github.com/rcarriga/nvim-dap-ui"
   },
   ["nvim-dap-virtual-text"] = {
@@ -217,41 +213,41 @@ _G.packer_plugins = {
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/nvim-dap-virtual-text",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\nvim-dap-virtual-text",
     url = "https://github.com/theHamsta/nvim-dap-virtual-text"
   },
   ["nvim-jdtls"] = {
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/nvim-jdtls",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\nvim-jdtls",
     url = "https://github.com/mfussenegger/nvim-jdtls"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-ts-autotag"] = {
     load_after = {},
     loaded = true,
     needs_bufread = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/nvim-ts-autotag",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\nvim-ts-autotag",
     url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["one-small-step-for-vimkind"] = {
@@ -261,92 +257,92 @@ _G.packer_plugins = {
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/one-small-step-for-vimkind",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\one-small-step-for-vimkind",
     url = "https://github.com/jbyuki/one-small-step-for-vimkind"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope-dap.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/telescope-dap.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-dap.nvim",
     url = "https://github.com/nvim-telescope/telescope-dap.nvim"
   },
   ["telescope-diff.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/telescope-diff.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-diff.nvim",
     url = "https://github.com/jemag/telescope-diff.nvim"
   },
   ["telescope-file-browser.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-file-browser.nvim",
     url = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-fzf-native.nvim",
     url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
   ["telescope-project.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/telescope-project.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-project.nvim",
     url = "https://github.com/nvim-telescope/telescope-project.nvim"
   },
   ["telescope-repo.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/telescope-repo.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-repo.nvim",
     url = "https://github.com/cljoly/telescope-repo.nvim"
   },
   ["telescope-smart-history.nvim"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/telescope-smart-history.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-smart-history.nvim",
     url = "https://github.com/nvim-telescope/telescope-smart-history.nvim"
   },
   ["telescope.nvim"] = {
     loaded = false,
     needs_bufread = true,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/telescope.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-ReplaceWithRegister"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/vim-ReplaceWithRegister",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-ReplaceWithRegister",
     url = "https://github.com/inkarkat/vim-ReplaceWithRegister"
   },
   ["vim-maximizer"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/vim-maximizer",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
   },
   ["vim-nightfly-guicolors"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-nightfly-guicolors",
     url = "https://github.com/bluz71/vim-nightfly-guicolors"
   },
   ["vim-surround"] = {
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/opt/vim-surround",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
   },
   ["which-key.nvim"] = {
     config = { "\27LJ\2\nG\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\30harikesh/plugins/whichkey\frequire\0" },
     loaded = true,
-    path = "/Users/harikesh/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    path = "C:\\Users\\6220694\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\which-key.nvim",
     url = "https://github.com/folke/which-key.nvim"
   }
 }
@@ -420,8 +416,8 @@ vim.cmd [[au FileType java ++once lua require("packer.load")({'nvim-jdtls'}, { f
 time([[Defining lazy-load filetype autocommands]], false)
   -- Event lazy-loads
 time([[Defining lazy-load event autocommands]], true)
-vim.cmd [[au BufReadPre * ++once lua require("packer.load")({'vim-surround', 'bufferline.nvim', 'gitsigns.nvim', 'indent-blankline.nvim'}, { event = "BufReadPre *" }, _G.packer_plugins)]]
 vim.cmd [[au VimEnter * ++once lua require("packer.load")({'telescope.nvim'}, { event = "VimEnter *" }, _G.packer_plugins)]]
+vim.cmd [[au BufReadPre * ++once lua require("packer.load")({'vim-surround', 'bufferline.nvim', 'gitsigns.nvim', 'indent-blankline.nvim'}, { event = "BufReadPre *" }, _G.packer_plugins)]]
 time([[Defining lazy-load event autocommands]], false)
 vim.cmd("augroup END")
 
